@@ -44,11 +44,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝙊𝙬𝙣𝙚𝙧",
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
                 url=f"https://t.me/ll_zalim_queen_ll",
             ),
             InlineKeyboardButton(
-                text="𝙂𝙧𝙤𝙪𝙥",
+                text="❰𝙂𝙧𝙤𝙪𝙥❱",
                 url=f"https://t.me/adventure_familys"
             ),
        
@@ -333,10 +333,10 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝙊𝙬𝙣𝙚𝙧", url=f"https://t.me/export_gabbar"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/export_gabbar"
             ),
             InlineKeyboardButton(
-                text="𝙂𝙧𝙤𝙪𝙥", url=f"qhttps://t.me/adventure_familys"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"qhttps://t.me/adventure_familys"
             )
         ],
     ]
