@@ -49,7 +49,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="❰𝙂𝙧𝙤𝙪𝙥❱",
-                url=f"https://t.me/adventure_familys"
+                url=f"https://t.me/GJ516_DISCUSS_GROUP"
             ),
        
         ],
@@ -336,7 +336,7 @@ def queue_markup(_, videoid, chat_id):
                 text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/export_gabbar"
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"qhttps://t.me/adventure_familys"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/GJ516_DISCUSS_GROUP"
             )
         ],
     ]
