@@ -125,10 +125,10 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✭ ᴜᴘᴅᴀᴛᴇs ✭", url=config.SUPPORT_CHANNEL
+                text=" ᴜᴘᴅᴀᴛᴇs ", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="✭ sᴜᴘᴘᴏʀᴛ ✭", url=config.SUPPORT_GROUP
+                text=" sᴜᴘᴘᴏʀᴛ ", url=config.SUPPORT_GROUP
             )
         ],
         [
