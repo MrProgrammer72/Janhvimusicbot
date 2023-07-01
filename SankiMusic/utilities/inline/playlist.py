@@ -14,7 +14,7 @@ def botplaylist_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="𝗖𝗹𝗼𝘀𝗲 🗑️", callback_data="close"
+                text="𝗖𝗹𝗼𝘀𝗲🗑️", callback_data="close"
             ),
         ],
     ]
