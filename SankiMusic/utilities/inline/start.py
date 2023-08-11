@@ -48,6 +48,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
 InlineKeyboardButton(
                 text="ꜱᴏᴜʀᴄᴇ ⛵ ", url="https://github.com/MrProgrammer72/GJ516Music"
+           )
         ]
      ]
     return buttons
