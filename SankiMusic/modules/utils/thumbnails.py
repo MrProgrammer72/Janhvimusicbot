@@ -130,7 +130,7 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 35),
-                f"JANHVI MUSIC BOT",
+                f"KRITIKA MUSIC BOT",
                 fill="white",
                 stroke_width=1,
                 stroke_fill="white",
