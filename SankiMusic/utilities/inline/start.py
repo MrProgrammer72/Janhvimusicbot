@@ -36,7 +36,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" ᴄʜᴀɴɴᴇʟ 🎊 ", url=config.SUPPORT_CHANNEL
+                text=" ᴜᴘᴅᴀᴛᴇꜱ 🎊 ", url=config.SUPPORT_CHANNEL
             ),
             
             InlineKeyboardButton(
