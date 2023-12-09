@@ -1,6 +1,5 @@
 import os
 import re
-import random
 import sys
 
 from os import getenv
@@ -67,7 +66,6 @@ autoclean = []
 
 START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5e18f8ea275b70df0f3a1.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/cc6c9d8726a107961b34f.jpg")
-RANDOM = [ ]
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/cc6c9d8726a107961b34f.jpg"
 GLOBAL_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
