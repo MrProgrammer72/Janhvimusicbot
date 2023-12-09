@@ -36,18 +36,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" ᴄʜᴀɴɴᴇʟ 🍂 ", url=config.SUPPORT_CHANNEL
+                text=" ᴄʜᴀɴɴᴇʟ 🎊 ", url=config.SUPPORT_CHANNEL
             ),
-            InlineKeyboardButton(
-                text=" ɢʀᴏᴜᴘ 🌍 ", url=config.SUPPORT_GROUP
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌜 ", url="https://t.me/Lippsxd"
-            ),
+            
 InlineKeyboardButton(
-                text="ꜱᴏᴜʀᴄᴇ ⛵ ", url="https://github.com/MrProgrammer72/GJ516Music"
+                text="ᴏᴡɴᴇʀ ⛵ ", url="https://t.me/Lippsxd"
            )
         ]
      ]
