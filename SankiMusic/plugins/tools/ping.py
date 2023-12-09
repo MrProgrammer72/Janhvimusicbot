@@ -1,4 +1,6 @@
 from datetime import datetime
+import random
+
 from pyrogram import filters
 from pyrogram.types import Message
 
@@ -20,7 +22,7 @@ PING_COMMAND = get_command("PING_COMMAND")
 @language
 async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
-        photo=PING_IMG_URL,
+        photo=random.choice(RANDOM),
         caption=_["ping_1"],
     )
     start = datetime.now()
