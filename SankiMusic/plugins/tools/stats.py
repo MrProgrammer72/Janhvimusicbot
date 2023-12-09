@@ -1,5 +1,6 @@
 import asyncio
 import platform
+import random
 from sys import version as pyver
 
 import psutil
