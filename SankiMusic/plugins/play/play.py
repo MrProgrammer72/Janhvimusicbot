@@ -23,7 +23,6 @@ from SankiMusic.modules.utils.formatters import formats
 from SankiMusic.utilities.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from SankiMusic.modules.main.database import is_served_user
 from SankiMusic.utilities.inline.playlist import botplaylist_markup
 from SankiMusic.modules.utils.logger import play_logs
 from SankiMusic.modules.main.streamer.stream import stream
