@@ -49,7 +49,7 @@ async def stats_global(client, message: Message, _):
         _, True if message.from_user.id in SUDOERS else False
     )
     await message.reply_photo(
-        photo=config.STATS_IMG_URL,
+        photo=random.choice(RANDOM),
         caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
         reply_markup=upl,
     )
@@ -290,14 +290,14 @@ async def overall_stats(client, CallbackQuery, _):
 **𝐒ᴏɴɢ 𝐃ᴏᴡɴʟᴏᴀᴅ 𝐋ɪᴍɪᴛ:** {song} 𝐌ɪɴs
 **𝐁ᴏᴛ's 𝐒ᴇʀᴠᴇʀ 𝐏ʟᴀʏʟɪsᴛ 𝐋ɪᴍɪᴛ:** {playlist_limit}
 **𝐏ʟᴀʏʟɪsᴛ 𝐏ʟᴀʏ 𝐋ɪᴍɪᴛ:** {fetch_playlist}"""
-    med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
+    med = InputMediaPhoto(media=random.choice(RANDOM), caption=text)
     try:
         await CallbackQuery.edit_message_media(
             media=med, reply_markup=upl
         )
     except MessageIdInvalid:
         await CallbackQuery.message.reply_photo(
-            photo=config.STATS_IMG_URL, caption=text, reply_markup=upl
+            photo=random.choice(RANDOM), caption=text, reply_markup=upl
         )
 
 
@@ -382,14 +382,14 @@ async def overall_stats(client, CallbackQuery, _):
 **𝐓ᴏᴛᴀʟ 𝐃ʙ 𝐊ᴇʏs:** {objects}
 **𝐓ᴏᴛᴀʟ 𝐁ᴏᴛ 𝐐ᴜᴇʀɪᴇs:** `{total_queries} `
     """
-    med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
+    med = InputMediaPhoto(media=random.choice(RANDOM), caption=text)
     try:
         await CallbackQuery.edit_message_media(
             media=med, reply_markup=upl
         )
     except MessageIdInvalid:
         await CallbackQuery.message.reply_photo(
-            photo=config.STATS_IMG_URL, caption=text, reply_markup=upl
+            photo=random.choice(RANDOM), caption=text, reply_markup=upl
         )
 
 
@@ -445,7 +445,7 @@ async def back_buttons(client, CallbackQuery, _):
             True if CallbackQuery.from_user.id in SUDOERS else False,
         )
         med = InputMediaPhoto(
-            media=config.STATS_IMG_URL,
+            media=random.choice(RANDOM),
             caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
         )
         try:
@@ -454,7 +454,7 @@ async def back_buttons(client, CallbackQuery, _):
             )
         except MessageIdInvalid:
             await CallbackQuery.message.reply_photo(
-                photo=config.STATS_IMG_URL,
+                photo=random.choice(RANDOM)
                 caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
                 reply_markup=upl,
             )
